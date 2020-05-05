@@ -62,14 +62,14 @@ header nav ul .hamburger .fa-bars {
   }
 }
 
-section .cards {
+main section .cards {
   display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-section .cards .card {
+main section .cards .card {
   flex-basis: calc(100% / 3 - 40px);
   position: relative;
   margin: 20px;
@@ -77,24 +77,24 @@ section .cards .card {
   overflow: hidden;
 }
 
-section .cards .card:hover .hover {
+main section .cards .card:hover .hover {
   display: block;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
 
-section .cards .card:hover .hover h3 {
+main section .cards .card:hover .hover h3 {
   padding: 20px;
 }
 
-section .cards .card img {
+main section .cards .card img {
   width: 100%;
   transition: 0.5s;
   /*transform: scale(1.2);*/
 }
 
-section .cards .card .hover {
+main section .cards .card .hover {
   display: none;
   position: absolute;
   top: 50%;
@@ -103,11 +103,11 @@ section .cards .card .hover {
   text-align: center;
 }
 
-section .cards .card:hover img {
+main section .cards .card:hover img {
   transform: scale(1.1);
 }
 
-section h2 {
+main section h2 {
   max-width: 1200px;
   margin: 0px auto;
   padding-left: 20px;
@@ -118,13 +118,13 @@ section h2 {
 }
 
 @media all and (max-width: 992px) {
-  section .cards .card {
+  main section .cards .card {
     flex-basis: calc(100% / 2 - 40px);
   }
 }
 
 @media all and (max-width: 767px) {
-  section .cards .card {
+  main section .cards .card {
     flex-basis: calc(100% - 40px);
   }
 }
