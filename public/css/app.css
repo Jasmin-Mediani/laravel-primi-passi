@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header img {
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards .card {
+  flex-basis: calc(100% / 3 - 40px);
+  position: relative;
+  margin: 20px;
+  transition-duration: 0.3s;
+  overflow: hidden;
+}
+
+.cards .card:hover .hover {
+  display: block;
+}
+
+.cards .card:hover .hover h3 {
+  padding: 20px;
+}
+
+.cards .card img {
+  width: 100%;
+  transition: 0.5s;
+  /*transform: scale(1.2);*/
+}
+
+.cards .card .hover {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cards .card:hover img {
+  transform: scale(1.1);
+}
+

@@ -1,0 +1,44 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    .card {
+        flex-basis: calc(100% / 3 - 40px);
+        position: relative;
+        margin: 20px;
+        transition-duration: 0.3s;
+        overflow: hidden;
+        
+        &:hover {
+
+            .hover { 
+                display: block;
+
+                h3 {
+
+                    padding: 20px;
+                }
+            }
+        }
+        
+        img {
+            width: 100%;
+            transition: 0.5s;
+            /*transform: scale(1.2);*/
+        }
+        .hover {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            text-align: center;
+
+        }
+    }
+
+    .card:hover img {
+        transform: scale(1.1);
+    }
+
+}

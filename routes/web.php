@@ -17,7 +17,12 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::get("/home", function () {
+Route::get("/prodotti", function () {
+    return view("prodotti");
+})->name("prodotti");
+
+
+Route::get("/", function () {
     return view("home");
 })->name("home");
 
