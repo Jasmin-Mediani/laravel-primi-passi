@@ -33,5 +33,25 @@ footer {
         }
     }
 
+}
 
+@media all and (max-width: 992px) {
+    .contenitore-footer {
+        flex-direction: column;
+
+        .colonna:nth-child(2) {
+            
+            margin-top: 20px;
+
+            ul:nth-child(2) {
+                margin-top: 20px;
+            }
+        }
+
+        .colonna:nth-child(3) {
+            
+            margin-top: 20px;
+           
+        }
+    }
 }

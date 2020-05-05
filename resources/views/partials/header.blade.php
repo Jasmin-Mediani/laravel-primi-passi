@@ -11,7 +11,12 @@
                 <li>
                     <a href="#">News</a>
                 </li>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
             </ul>
         </nav>
+
+        
     </header>
 </body>

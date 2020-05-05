@@ -58,3 +58,21 @@ section {
     }
 }
 
+@media all and (max-width: 992px) {
+
+    section .cards .card {
+        flex-basis: calc(100% / 2 - 40px);
+
+    }
+
+}
+
+@media all and (max-width: 767px) {
+
+    section .cards .card {
+        flex-basis: calc(100% - 40px);
+
+    }
+
+}
+

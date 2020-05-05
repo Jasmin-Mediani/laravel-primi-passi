@@ -2,6 +2,7 @@ header {
     font-family: $font_base;
     background-color: white;
     font-size: 16px;
+    
     img {
         margin-left: 50%;
         transform: translate(-50%);
@@ -25,7 +26,34 @@ header {
                 }
             }
 
+            .hamburger {
+                position: absolute;
+                height: 40px;
+                width: 40px;
+                color: black;
+                display: none;
+
+                .fa-bars {
+                    font-size: 40px;
+                    color: #002D73;
+                }
+            }
+
         }
 
     }
+    
 }
+
+@media all and (max-width: 992px) {
+    
+    header nav ul .hamburger {
+        display: block;
+    }
+
+    header nav ul li {
+        visibility: hidden;
+
+    }
+}
+

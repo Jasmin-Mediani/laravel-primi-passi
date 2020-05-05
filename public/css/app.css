@@ -39,6 +39,29 @@ header nav ul li:hover {
   background-color: #B2E5FC;
 }
 
+header nav ul .hamburger {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  color: black;
+  display: none;
+}
+
+header nav ul .hamburger .fa-bars {
+  font-size: 40px;
+  color: #002D73;
+}
+
+@media all and (max-width: 992px) {
+  header nav ul .hamburger {
+    display: block;
+  }
+
+  header nav ul li {
+    visibility: hidden;
+  }
+}
+
 section .cards {
   display: flex;
   flex-wrap: wrap;
@@ -94,6 +117,18 @@ section h2 {
   color: #002D73;
 }
 
+@media all and (max-width: 992px) {
+  section .cards .card {
+    flex-basis: calc(100% / 2 - 40px);
+  }
+}
+
+@media all and (max-width: 767px) {
+  section .cards .card {
+    flex-basis: calc(100% - 40px);
+  }
+}
+
 footer {
   max-width: 1200px;
   margin: 0 auto;
@@ -124,5 +159,23 @@ footer .colonna:nth-child(2) ul:nth-child(2) {
 footer .colonna:nth-child(3) li,
 footer .colonna:nth-child(2) li {
   padding: 6px;
+}
+
+@media all and (max-width: 992px) {
+  .contenitore-footer {
+    flex-direction: column;
+  }
+
+  .contenitore-footer .colonna:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .contenitore-footer .colonna:nth-child(2) ul:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .contenitore-footer .colonna:nth-child(3) {
+    margin-top: 20px;
+  }
 }
 
