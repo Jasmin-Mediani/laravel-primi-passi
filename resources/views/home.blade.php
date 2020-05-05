@@ -11,4 +11,6 @@
     @include("partials.header")
     @include("partials.footer")
 </body>
+
+<footer></footer>
 </html>

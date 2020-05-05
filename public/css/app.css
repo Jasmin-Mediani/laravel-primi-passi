@@ -54,3 +54,13 @@ header img {
   transform: scale(1.1);
 }
 
+footer .contenitore-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .contenitore-footer ul {
+  list-style: none;
+}
+
