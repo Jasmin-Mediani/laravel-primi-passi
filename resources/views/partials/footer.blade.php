@@ -27,7 +27,8 @@
                 <li>Sartoria della pasta</li>
                 <li>Spaghetto Quadrato</li>
                 <li>Le Persone</li>
-
+            </ul>
+            <ul>
                 <li><h4>Prodotti</h4></li>
                 <li>Le Classiche</li>
                 <li>Le Integrali</li>
@@ -40,7 +41,7 @@
         </div>
         <div class="colonna">
             <ul>
-                <li><h4>Collesione da chef</h4></li>
+                <li><h4>Collezione da chef</h4></li>
                 <li>Collezione da chef</li>
                 <li>Grandi cucine</li>
                 <li>Biologiche</li>

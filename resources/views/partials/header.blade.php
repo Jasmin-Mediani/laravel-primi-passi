@@ -9,7 +9,7 @@
                     <a href="{{route("prodotti")}}">Prodotti</a>
                 </li>
                 <li>
-                    <a href="#">Contatti</a>
+                    <a href="#">News</a>
                 </li>
             </ul>
         </nav>

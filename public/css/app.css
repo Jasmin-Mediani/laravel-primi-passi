@@ -9,17 +9,44 @@ a {
   color: black;
 }
 
+header {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  font-size: 16px;
+}
+
 header img {
   margin-left: 50%;
   transform: translate(-50%);
 }
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
+header nav {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.cards .card {
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+header nav ul li {
+  padding: 20px;
+}
+
+header nav ul li:hover {
+  background-color: #B2E5FC;
+}
+
+section .cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section .cards .card {
   flex-basis: calc(100% / 3 - 40px);
   position: relative;
   margin: 20px;
@@ -27,21 +54,21 @@ header img {
   overflow: hidden;
 }
 
-.cards .card:hover .hover {
+section .cards .card:hover .hover {
   display: block;
 }
 
-.cards .card:hover .hover h3 {
+section .cards .card:hover .hover h3 {
   padding: 20px;
 }
 
-.cards .card img {
+section .cards .card img {
   width: 100%;
   transition: 0.5s;
   /*transform: scale(1.2);*/
 }
 
-.cards .card .hover {
+section .cards .card .hover {
   display: none;
   position: absolute;
   top: 50%;
@@ -50,17 +77,49 @@ header img {
   text-align: center;
 }
 
-.cards .card:hover img {
+section .cards .card:hover img {
   transform: scale(1.1);
 }
 
+section h2 {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #002D73;
+}
+
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #A9B0B9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
 footer .contenitore-footer {
+  padding: 20px;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 footer .contenitore-footer ul {
   list-style: none;
+}
+
+footer .contenitore-footer ul h4 {
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+footer .colonna:nth-child(2) ul:nth-child(2) {
+  margin-top: 30px;
+}
+
+footer .colonna:nth-child(3) li,
+footer .colonna:nth-child(2) li {
+  padding: 6px;
 }
 

@@ -1,6 +1,31 @@
 header {
+    font-family: $font_base;
+    background-color: white;
+    font-size: 16px;
     img {
         margin-left: 50%;
         transform: translate(-50%);
+    }
+
+    nav {
+
+        max-width: 1200px;
+        margin: 0 auto;
+
+        ul {
+
+            display: flex;
+            list-style: none;
+            justify-content: center;
+
+            li {
+                padding: 20px;
+                &:hover {
+                    background-color: #B2E5FC;
+                }
+            }
+
+        }
+
     }
 }
