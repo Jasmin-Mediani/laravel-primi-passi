@@ -56,6 +56,9 @@ section .cards .card {
 
 section .cards .card:hover .hover {
   display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 section .cards .card:hover .hover h3 {

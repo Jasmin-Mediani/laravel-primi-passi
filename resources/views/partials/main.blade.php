@@ -15,8 +15,8 @@
                 </div>
             </div>
         @endforeach
-        </section>
-        <section>
+    </section>
+    <section>
                 <h2>Le corte</h2>
                <div class="cards">
                 @foreach ($corte as $key => $card) 
@@ -55,5 +55,4 @@
                     @endforeach
                 </div>
             </section>
-        </div>
 </main>  
