@@ -9,7 +9,7 @@
                 <li>Pec: lamolisana@pec.it</li>
                 <li>Tel: +39 0874 4981</li>
                 <li>Fax: +39 0874 629584</li>
-                <li>info@lamolisana.it(per segnalazioni degli utenti)</li>
+                <li>info@lamolisana.it &lpar;per segnalazioni degli utenti&rpar;</li>
                 <li>commerciale@lamolisana.it</li>
                 <li>export@lamolisana.it</li>
                 <li>numero verde 800818081</li>
