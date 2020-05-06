@@ -3,13 +3,13 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="{{route("home")}}">Home</a>
                 </li>
                 <li>
                     <a href="{{route("prodotti")}}">Prodotti</a>
                 </li>
                 <li>
-                    <a href="#">News</a>
+                    <a href="{{route("news")}}">News</a>
                 </li>
                 <div class="hamburger">
                     <i class="fas fa-bars"></i>
