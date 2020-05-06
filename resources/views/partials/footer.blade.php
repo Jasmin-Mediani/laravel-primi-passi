@@ -1,7 +1,7 @@
 <footer>
     <div class="contenitore-footer">
         <div class="colonna">
-            <img src=" {{asset("img/logo.png")}}" alt="">
+            <img src=" {{asset("img/marchio-sito-test.png")}}" alt="">
             <ul>
                 <li>Ragione sociale: La Molisana S.P.A.</li>
                 <li>Sede legale: Contrada Colle delle Api, 100/A</li>
@@ -49,4 +49,10 @@
             </ul>
         </div>
     </div>
+
+    <div id="montagne">
+        
+    </div>
+
 </footer>
+

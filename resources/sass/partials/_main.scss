@@ -1,4 +1,5 @@
 main { 
+    background-image: url("../../images/fondo-pag-speciali.jpg") ;
     section {
         .cards {
             display: flex;
@@ -68,7 +69,7 @@ main {
     
     }
     
-    @media all and (max-width: 767px) {
+    @media screen and (max-width: 767px) {
     
         section .cards .card {
             flex-basis: calc(100% - 40px);

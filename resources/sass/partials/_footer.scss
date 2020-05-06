@@ -1,15 +1,19 @@
-footer {
-    max-width: 1200px;
+footer  {
+    
+    
     margin: 0 auto;
     color: #A9B0B9;
     font-family: $font_base;
     font-size: 18px;
-        
+
     .contenitore-footer {
+        max-width: 1200px;
+        margin: 0 auto;
         padding: 20px;
         display: flex;
-        
         justify-content: space-between;
+
+
         ul {
             list-style: none;
             h4 {
@@ -33,9 +37,22 @@ footer {
         }
     }
 
+   #montagne {
+    width: 100%;
+    height: 150px;
+    background-image: url("../../images/footer-montagne-bottom.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+    
+   }
+
+
 }
 
-@media all and (max-width: 992px) {
+
+
+@media screen and (max-width: 992px) {
     .contenitore-footer {
         flex-direction: column;
 

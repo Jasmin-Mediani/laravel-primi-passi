@@ -1,4 +1,4 @@
-<main style="background-image: url('{{ asset('img/sfondo4.jpg')}}');">>
+<main {{-- style="background-image: url('{{ asset('img/sfondo4.jpg')}}');"> --}}>
     <section>
         <h2>Le lunghe</h2>
         <div class="cards">
