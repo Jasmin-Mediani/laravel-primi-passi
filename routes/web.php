@@ -30,3 +30,13 @@ Route::get("/news", function () {
     return view("news");
 })->name("news");
 
+
+
+Route::get('/prodotti/{id}', function ($id) {
+    $data = [
+        'id' => $id
+    ];
+    return view('prodotto' , $data);
+})->name('prodotto');
+
+
