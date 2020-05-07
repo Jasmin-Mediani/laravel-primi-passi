@@ -44,6 +44,7 @@ position: relative;
             position: absolute;
             top: 50%;
             right: 0;
+            transform: translateY(-50%);
             background-color: rgba(128, 128, 128, 0.363);
             color: white;
             padding: 35px 20px;
