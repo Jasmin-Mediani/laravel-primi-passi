@@ -32,9 +32,9 @@ Route::get("/news", function () {
 
 
 
-Route::get('/prodotti/{id}', function ($id) {
+Route::get('/prodotti/{id}', function ($id) { //l'argomento passato come paramentro in questo caso si chiama $id, quindi da ora il numero della posizione sarà $id.
     $data = [
-        'id' => $id
+        'id' => $id 
     ];
     return view('prodotto' , $data);
 })->name('prodotto');
