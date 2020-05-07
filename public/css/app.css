@@ -137,6 +137,58 @@ main section h2 {
   }
 }
 
+.main-prodotto {
+  background-color: #B7DAE5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.main-prodotto img {
+  width: 1200px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.main-prodotto p {
+  width: 1200px;
+  max-width: 80%;
+  padding-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #043176;
+  font-size: 17.5px;
+}
+
+.main-prodotto h2 {
+  padding-top: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-prodotto .frecce {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.main-prodotto .frecce .fa-chevron-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: white;
+  background-color: rgba(128, 128, 128, 0.363);
+  padding: 35px 20px;
+}
+
+.main-prodotto .frecce .fa-chevron-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background-color: rgba(128, 128, 128, 0.363);
+  color: white;
+  padding: 35px 20px;
+}
+
 footer {
   margin: 0 auto;
   color: #A9B0B9;
