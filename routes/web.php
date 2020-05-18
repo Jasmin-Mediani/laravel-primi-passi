@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome', function () {
+/* Route::get('/welcome', function () {
     return view('welcome');
 });
 
@@ -28,15 +28,19 @@ Route::get("/", function () {
 
 Route::get("/news", function () {
     return view("news");
-})->name("news");
+})->name("news"); */
 
 
 
 Route::get('/prodotti/{id}', function ($id) { //l'argomento passato come paramentro in questo caso si chiama $id, quindi da ora il numero della posizione sarà $id.
-    $data = [
+    $data = [ //questo è un esempio di array, per dirgli come leggerli.
         'id' => $id 
     ];
     return view('prodotto' , $data);
 })->name('prodotto');
+
+Route::get('/', 'ProductController@index')->name('home');
+
+
 
 
