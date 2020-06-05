@@ -19335,8 +19335,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\jasmin\Desktop\Corso boolean\Esercizi\esercizio-lezione-66\laravel-primi-passi\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\jasmin\Desktop\Corso boolean\Esercizi\esercizio-lezione-66\laravel-primi-passi\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\MAMP\htdocs\boolean\laravel-primi-passi\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\MAMP\htdocs\boolean\laravel-primi-passi\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

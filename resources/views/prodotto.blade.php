@@ -22,11 +22,11 @@
         
         <div class="frecce">
 
-            @if (($id) >= 0) 
+            @if (($id) > 0) 
                 <a href="{{$id -1}}"><i class="fas fa-chevron-left"></i></a>        
             @endif
 
-            @if (($id) < count($arrayProdotti)) 
+            @if (($id) < count($arrayProdotti) -1) 
                 <a href="{{$id +1}}"><i class= "fas fa-chevron-right"></i></a>
             @endif
 
